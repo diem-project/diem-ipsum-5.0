@@ -11,7 +11,8 @@ class ProjectConfiguration extends dmProjectConfiguration
     parent::setup();
     
     $this->enablePlugins(array(
-      // add plugins you want to enable here
+      'dmWidgetTwitterPlugin',
+      'dmContactPlugin'
     ));
 
     $this->setWebDir(sfConfig::get('sf_root_dir').'/web');
