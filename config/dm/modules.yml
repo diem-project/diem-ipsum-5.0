@@ -6,3 +6,10 @@ Content:
       components:
         header:
         footer:
+
+  Blog:
+
+    article:
+      page:         true
+      components:
+        list:
